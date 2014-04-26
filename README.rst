@@ -6,8 +6,9 @@ Example of test of reusable Django app
 .. image:: https://travis-ci.org/openwebinars-django/testango.svg?branch=master
     :target: https://travis-ci.org/openwebinars-django/testango
 
-.. image:: https://coveralls.io/repos/openwebinars-django/testango/badge.png
-    :target: https://coveralls.io/r/openwebinars-django/testango
+.. image:: https://coveralls.io/repos/openwebinars-django/testango/badge.png?branch=master
+    :target: https://coveralls.io/r/openwebinars-django/testango?branch=master
+
 
 Install project
 ===============
@@ -54,7 +55,7 @@ You DON'T need install project before. And you executing the tests with python 2
 
 ::
 
-    pip install tox
+    pip install tox==1.7.1
     tox
 
 
@@ -63,7 +64,7 @@ Executing the test with tox and coverage
 
 ::
 
-    sudo pip install coveralls==0.3
+    sudo pip install coveralls==0.4.1
     coverage erase
     tox
     coverage combine
