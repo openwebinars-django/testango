@@ -3,6 +3,12 @@ Testango
 
 Example of test of reusable Django app
 
+.. image:: https://travis-ci.org/openwebinars-django/testango.svg?branch=master
+    :target: https://travis-ci.org/openwebinars-django/testango
+
+.. image:: https://coveralls.io/repos/openwebinars-django/testango/badge.png
+    :target: https://coveralls.io/r/openwebinars-django/testango
+
 Install project
 ===============
 
