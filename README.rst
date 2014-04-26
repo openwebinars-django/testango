@@ -56,3 +56,17 @@ You DON'T need install project before. And you executing the tests with python 2
 
     pip install tox
     tox
+
+
+Executing the test with tox and coverage
+========================================
+
+::
+
+    sudo pip install coveralls==0.3
+    coverage erase
+    tox
+    coverage combine
+    coverage report -m
+    coverage html
+    chromium-browser htmlcov/index.html  # or another browser
