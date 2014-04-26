@@ -12,5 +12,5 @@ class TestangoTestCase(TestCase):
         word = 'hello'
         url = reverse('word_view', args=(word,))
         response = self.client.get(url)
-        self.assertEqual(response.content, word)
-        self.assertNotEqual(response.content, 'bye')
+        self.assertEqual(response.content.decode('utf-8'), word)
+        self.assertNotEqual(response.content.decode('utf-8'), 'bye')
