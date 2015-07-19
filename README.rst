@@ -19,7 +19,7 @@ Install project
     source vtestango/bin/activate
     python setup.py develop
 
-    pip install Django==1.6.3
+    pip install Django==1.8.3
     pip install pillow==1.7.8 # python 2
     pip install pillow==2.4.0 # python 3
 
@@ -64,7 +64,7 @@ Executing the test with tox and coverage
 
 ::
 
-    sudo pip install coveralls==0.4.1
+    sudo pip install coveralls==1.0a2
     coverage erase
     tox
     coverage combine
